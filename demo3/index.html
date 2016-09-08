@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="../build/react.js"></script>
+    <script src="../build/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-core@5.8.38/browser.min.js"></script>
+  </head>
+  <body>
+    <div id="example"></div>
+    <script type="text/babel">
+      var names=[
+        <h1>Hello World!@</h1>,
+        <h2>Hello World!!!</h2>
+      ]
+
+		ReactDOM.render(
+		<div>{
+			names
+		}</div>,
+		document.getElementById('example')
+		)
+    </script>
+  </body>
+</html>
